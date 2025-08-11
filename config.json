@@ -1,0 +1,25 @@
+{
+  "monitored_paths": [
+    "C:\\Windows\\System32\\drivers\\etc\\hosts",
+    "%USERPROFILE%\\Desktop\\important.txt"
+  ],
+  "safe_ports": [22, 80, 443, 3389],
+  "suspicious_process_names": ["keylogger", "miner", "hacktool"],
+  "log_file": "security_log.txt",
+  "log_level": "INFO",
+  "log_max_bytes": 1048576,
+  "log_backup_count": 3,
+  "monitor_interval_seconds": 5,
+  "cpu_usage_threshold": 80,
+  "memory_usage_threshold_mb": 500,
+  "enable_email_alerts": false,
+  "email_settings": {
+    "smtp_server": "smtp.example.com",
+    "smtp_port": 587,
+    "username": "SohamWagh",
+    "password": "1234",
+    "from_addr": "sohamwagh238@gmail.com",
+    "to_addr": "sohamwagh123456@gmail.com"
+  },
+  "suspicious_ips": ["1.2.3.4", "8.8.8.8"]
+}
