@@ -99,10 +99,10 @@ All settings are in `config.json`:
 
 ## License
 
-MIT License (see LICENSE file if provided)
+MIT License 
 
 ---
 
 ## Author
 
-Soham Wagh (and contibutors)
+Soham Wagh 
